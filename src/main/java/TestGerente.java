@@ -10,8 +10,6 @@ public class TestGerente {
         gerente.setClave("AluraCursosOnline");
         gerente.setTipo(1);
 
-        // System.out.println(gerente.getNombre());
-        // System.out.println(gerente.getTipo());
         System.out.println(gerente.getBonificacion());
         System.out.println(gerente.iniciarSesion("AluraCursosOnline"));
     }
